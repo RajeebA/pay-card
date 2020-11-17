@@ -109,7 +109,12 @@ function App() {
     <div className="App">
       <Container fluid>
         <Row>
-          <a id="forkMe" href="https://github.com/">
+          <a
+            id="forkMe"
+            // eslint-disable-next-line react/jsx-no-target-blank
+            target="_blank"
+            href="https://github.com/RajeebA/pay-card"
+          >
             Fork me on GitHub
           </a>
           <Col
