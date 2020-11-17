@@ -109,6 +109,9 @@ function App() {
     <div className="App">
       <Container fluid>
         <Row>
+          <a id="forkMe" href="https://github.com/">
+            Fork me on GitHub
+          </a>
           <Col
             xs="12"
             md="12"
